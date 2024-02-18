@@ -1,0 +1,11 @@
+{
+    "SUCCESS": "Success",
+    "DEFAULT": "Something Went Wrong",
+    "DUPLICATE": "Duplicate entry.",
+    "APP_ERROR": "Application error occurred.",
+    "USER_NOT_FOUND": "No Such User",
+    "DB_ERROR": "Database Error",
+    "USER_CREATED_SUCCESSFULLY": "User Created Successfully",
+    "USER_DELETED_SUCCESSFULLY": "User Deleted Successfully",
+    "USER_UPDATED_SUCCESSFULLY": "User Updated Successfully"
+}

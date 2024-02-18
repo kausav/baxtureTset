@@ -1,0 +1,30 @@
+{
+  "name": "baxturetest",
+  "private": true,
+  "scripts": {
+    "start:dev": "node server.js",
+    "build": "next build",
+    "start": "node server.js",
+    "lint": "next lint",
+    "start:prod": "next build && next start",
+    "start:multi": "node cluster.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "boom": "^7.3.0",
+    "cluster": "^0.7.7",
+    "http": "^0.0.1-security",
+    "joi": "^17.12.1",
+    "mongoose": "^6.1.4",
+    "next": "12.0.7",
+    "os": "^0.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-dropdown-select": "^4.11.1",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
